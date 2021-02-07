@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap');
 
 body {
-  padding-top: 50px;
+  padding-top: 40px;
   font-family: 'EB Garamond', serif;
 }
 
@@ -19,7 +19,6 @@ body {
 
 .header-div p {
   font-style: italic;
-  
   margin-bottom: 20px;
 }
 
@@ -29,6 +28,11 @@ body {
   margin-right: auto;
   width: 80%;
   height: auto;
+}
+
+#img-caption {
+  font-style: italic;
+  margin-top: 10px;
 }
 
 #tribute-info {
