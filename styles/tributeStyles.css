@@ -46,11 +46,18 @@ body {
 
 #tribute-info h2 {
   margin-bottom: 20px;
+  font-size: 40px;
 }
 
 #tribute-info a {
   text-decoration: none;
   color: silver;
+}
+
+#tribute-info a:hover {
+  color: #bca5fc;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 #tribute-info p {
