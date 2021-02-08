@@ -4,3 +4,7 @@ Collection of responsive web design projects required for the Free Code Camp Res
 To do:  
     * index.html  
     - Dropdown navigation for mobile-phone view  
+
+Project tests passed  
+Links to codepen  
+    * (Tribute Page)[https://codepen.io/steshaMcK/pen/mdOdQGB]
