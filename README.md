@@ -7,4 +7,4 @@ To do:
 
 Project tests passed  
 Links to codepen  
-    * (Tribute Page)[https://codepen.io/steshaMcK/pen/mdOdQGB]
+    * [Tribute Page](https://codepen.io/steshaMcK/pen/mdOdQGB)
