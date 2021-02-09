@@ -4,7 +4,7 @@ body {
   padding-top: 50px;
   font-family: 'EB Garamond', serif;
   text-align: center;
-  font-size: 23px;
+  font-size: 20px;
 }
 
 .header-div {
@@ -13,7 +13,7 @@ body {
 }
 
 .header-div h1 {
-  font-size: 50px;
+  font-size: 45px;
   margin-bottom: 10px;
 }
 
@@ -22,19 +22,24 @@ body {
   margin: 20px 0;
 }
 
+#img-div {
+  width: 90%;
+  margin: auto;
+}
+
 #image {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 100%;
   height: auto;
   max-width: 730px;
 }
 
 #img-caption {
   font-style: italic;
-  width: 45%;
   margin: auto;
+  margin-top: 15px;
 }
 
 #tribute-info {
@@ -65,7 +70,7 @@ body {
 }
 
 .events-list {
-  width: 50%;
+  width: 75%;
   margin: auto;
   text-align: left;
 }
@@ -77,4 +82,14 @@ body {
 .events-list li {
   padding-bottom: 10px;
   line-height: 1.5em;
+}
+
+@media only screen and (min-width: 769px) {
+  body {
+    font-size: 25px;
+  }
+
+  .events-list {
+    width: 70%;
+  }
 }
