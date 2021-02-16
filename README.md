@@ -8,7 +8,8 @@ To do:
     - Dropdown navigation for mobile-phone view  
 
 Project tests passed  
-Links to codepen  
-    * [Tribute Page](https://codepen.io/steshaMcK/pen/mdOdQGB)
+Links to codepen  and deployment
+    * [Tribute Page (codepen)](https://codepen.io/steshaMcK/pen/mdOdQGB)
+      [Tribute Page (GitHub Pages)](https://steeshmck.github.io/fcc-responsive-design-projects/tribute.html)
 
 
