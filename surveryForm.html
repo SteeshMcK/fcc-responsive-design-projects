@@ -27,33 +27,58 @@
                 <label id='number-label' for='age'>Age (optional)</label>
                 <input id='number' type='number' name='age' min='0' max='1000000' placeholder='Age' />
             </div>
-          <label id='dropdown-label' for='dropdown'>Which describes your overall satisfaction with your stay at Rivendell:</label>
-          <select id='dropdown' name='dropdown'>
-            <option value='extremely satisfied'>Extremely satisfied</option>
-            <option value='very satisfied'>Very satisfied</option>
-            <option value='saisfied'>Satisfied</option>
-            <option value='The woe of ages'>The woe of ages lay upon my heart</option>
-          </select>
+            <div class='form-group'>
+                <label id='dropdown-label' for='dropdown'>Which describes your overall satisfaction with your stay at Rivendell:</label>
+                <select id='dropdown' name='dropdown'>
+                    <option value='extremely satisfied'>Extremely satisfied</option>
+                    <option value='very satisfied'>Very satisfied</option>
+                    <option value='saisfied'>Satisfied</option>
+                    <option value='The woe of ages'>The woe of ages lay upon my heart</option>
+                </select>
+            </div>
+        </div>
+        <div class='form-group'>
           <p>Would you recommend staying at Rivendell to your friends and family?</p>
-          <input type='radio' name='recommend' value='It is my purpose' />
-          <label for='It is my purpose'>It is my purpose</label>
-          <input type='radio' name='recommend' value='Of course' />
-          <label for='Of course'>Of course</label>
-          <input type='radio' name='recommend' value='I must diminish and go into the west' />
-          <label for='I must diminish and go into the west'>I must diminish and go into the west</label>
+          <div class='radio-group'>
+            <input type='radio' name='recommend' value='It is my purpose' />
+            <label for='It is my purpose'>It is my purpose</label>
+          </div>
+          <div class='radio-group'>
+            <input type='radio' name='recommend' value='Of course' />
+            <label for='Of course'>Of course</label>
+          </div>
+          <div class='radio-group'>
+            <input type='radio' name='recommend' value='I must diminish and go into the west' />
+            <label for='I must diminish and go into the west'>I must diminish and go into the west</label>
+          </div>
+        </div>
+        <div class='form-group'>
           <p>What services and/or features would you like to see improved, here at Rivendell?</p>
-          <input type='checkbox' id='feature1' name='feature1' value='24-hour Coffee Bar' />
-          <label for='feature1'>24-hour Coffee Bar</label>
-          <input type='checkbox' id='feature2' name='feature2' value='In-room massage and facial' />
-          <label for='feature2'>In-room massage and facial</label>
-          <input type='checkbox' id='feature3' name='feature3' value='Horseback-tours of the Golden Valley' />
-          <label for='feature3'>Horseback-tours of the Golden Valley </label>
-          <input type='checkbox' id='feature4' name='feature4' value='Gourmet vegetarian menu' />
-          <label for='feature4'>Gourmet vegetarian menu</label>
-          <input type='checkbox' id='feature5' name='feature5' value='Nightly live entertainment in the Hall of Fire' />
-          <label for='feature5'>Nightly live entertainment in the Hall of Fire</label>
+          <div class='check-group'>
+            <input type='checkbox' id='feature1' name='feature1' value='24-hour Coffee Bar' />
+            <label for='feature1'>24-hour Coffee Bar</label>
+          </div>
+          <div class='check-group'>
+            <input type='checkbox' id='feature2' name='feature2' value='In-room massage and facial' />
+            <label for='feature2'>In-room massage and facial</label>
+          </div>
+          <div class='check-group'>
+            <input type='checkbox' id='feature3' name='feature3' value='Horseback-tours of the Golden Valley' />
+            <label for='feature3'>Horseback-tours of the Golden Valley </label>
+          </div>
+          <div class='check-group'>
+            <input type='checkbox' id='feature4' name='feature4' value='Gourmet vegetarian menu' />
+            <label for='feature4'>Gourmet vegetarian menu</label>
+          </div>
+          <div class='check-group'>
+            <input type='checkbox' id='feature5' name='feature5' value='Nightly live entertainment in the Hall of Fire' />
+            <label for='feature5'>Nightly live entertainment in the Hall of Fire</label>
+          </div>
+        </div>
+        <div class='form-group'>
           <p>Please share with us your comments or suggestions</p>
           <textarea id="text-area" name="comments" rows="4" cols="50">Enter your comments here</textarea>
+        </div>
           <button type='submit' id="submit">Please click to submit</button>
         </form>
       </main>

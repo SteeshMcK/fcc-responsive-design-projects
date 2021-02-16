@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@500&family=Roboto+Slab:wght@300;400&display=swap');
 
 main {
     text-align: center;
@@ -29,9 +29,31 @@ main {
   
   .form-group {
       display: inline-grid;
-      padding-bottom: 10px;
+      padding-bottom: 20px;
+      margin: 5px 0;
   }
 
-  .form-group input {
+  .form-group p {
+      margin-bottom: 10px;
+  }
+
+  .form-group input, select {
       padding: 10px;
+  }
+
+  .radio-group label, .check-group label {
+      font-size: 22px;
+  }
+
+  #submit {
+      padding: 10px 0;
+  }
+
+  input, button, select, textarea {
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+  }
+
+  textarea, button {
+      font-size: 18px;
   }
