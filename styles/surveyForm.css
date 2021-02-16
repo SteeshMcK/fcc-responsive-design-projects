@@ -1,13 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@500&family=Roboto+Slab:wght@300;400&display=swap');
 
+body {
+    background-image: url('../images/rivendell.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Mobile Styles */
 main {
     text-align: center;
     font-family: 'Cormorant Unicase', serif;
-    padding-top: 20px;
+    padding-top: 50px;
   }
   
   .form-title {
-    padding: 20px;
+    padding: 20px 10px;
+    color: wheat;
+    max-width: 800px;
+    background: black;
+    margin: auto;
   }
 
   .form-title h1 {
@@ -17,20 +27,23 @@ main {
   .form-title p {
       padding: 20px 0;
       font-size: 25px;
+      max-width: 800px;
+      margin: auto;
   }
   
   #survey-form {
     display: inline-grid;
     text-align: left;
     padding: 20px 10px;
-    background-color: gold;
+    background-color: wheat;
     font-size: 25px;
+    max-width: 800px;
   }
   
   .form-group {
       display: inline-grid;
       padding-bottom: 20px;
-      margin: 5px 0;
+      margin: 5px 15px;
   }
 
   .form-group p {
@@ -47,13 +60,27 @@ main {
 
   #submit {
       padding: 10px 0;
+      background-color: black;
+      color: wheat;
   }
 
   input, button, select, textarea {
-    margin: 0;
     font-family: 'Roboto Slab', serif;
   }
 
   textarea, button {
       font-size: 18px;
+  }
+
+  /* Tablet Styles */
+  @media only screen and (min-width: 768px) {
+    .form-title, form {
+        margin: 0 35px;
+    }
+  }
+
+  @media only screen and (min-width: 884px) {
+      .form-title {
+          margin: auto;
+      }
   }
