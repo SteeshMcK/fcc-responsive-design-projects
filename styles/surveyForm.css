@@ -1,8 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@500&display=swap');
+
 main {
     text-align: center;
-}
+    font-family: 'Cormorant Unicase', serif;
+    padding-top: 20px;
+  }
+  
+  .form-title {
+    padding: 20px;
+  }
 
-#survey-form {
+  .form-title h1 {
+      font-size: 45px;
+  }
+
+  .form-title p {
+      padding: 20px 0;
+      font-size: 25px;
+  }
+  
+  #survey-form {
     display: inline-grid;
     text-align: left;
-}
+    padding: 20px 10px;
+    background-color: gold;
+    font-size: 25px;
+  }
+  
+  .form-group {
+      display: inline-grid;
+      padding-bottom: 10px;
+  }
+
+  .form-group input {
+      padding: 10px;
+  }
