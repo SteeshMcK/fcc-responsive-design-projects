@@ -9,11 +9,9 @@
     <link rel="stylesheet" href="./styles/surveyForm.css">
 </head>
 <body>
-    <header>
+    <main>
         <h1 id='title'>Rivendell Spa Guest Survey</h1>
         <p id='description'>Thank you for taking the time to share with us your thoughts on how to make your time with us more magical.</p>
-    </header>
-    <main>
         <form id='survey-form'>
             <label id='name-label' for='name'>Name</label>
             <input id='name' type='text' name='name' placeholder='Enter your name' />
@@ -28,8 +26,14 @@
               <option value='saisfied'>Satisfied</option>
               <option value='The woe of ages'>The woe of ages lay upon my heart</option>
             </select>
+            <p>Would you recommend staying at Rivendell to your friends and family?</p>
+            <input type='radio' name='recommend' value='It is my purpose' />
+            <label for='It is my purpose'>It is my purpose</label>
+            <input type='radio' name='recommend' value='Of course' />
+            <label for='Of course'>Of course</label>
+            <input type='radio' name='recommend' value='I must diminish and go into the west' />
+            <label for='I must diminish and go into the west'>I must diminish and go into the west</label>
           </form>
     </main>
-    
 </body>
 </html>
